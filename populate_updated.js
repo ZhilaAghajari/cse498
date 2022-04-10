@@ -76,6 +76,7 @@ function dropCollections() {
     db.collections['notifications'].drop(function (err) {
         console.log('notifications collection dropped');
     });
+    console.log('DONE')
 }
 
 //capitalize a string
